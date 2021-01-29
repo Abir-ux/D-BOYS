@@ -1,4 +1,4 @@
-.container{
+/* .container{
     text-align: center;
 }
 .buttons{
@@ -9,4 +9,12 @@
     background-color: rgba(245, 222, 179, 0.856);
     color: rgb(0, 0, 0);
     margin: 3px;
+} */
+body{
+    font-family: sans-serif;
+}
+
+
+.January{
+    text-align: center;
 }
