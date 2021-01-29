@@ -15,6 +15,35 @@ body{
 }
 
 
+
+.milestoneLogo{
+    text-align: center;
+}
+
+
+
+
+
+
 .January{
     text-align: center;
+}
+
+.February{
+    text-align: center;
+}
+
+.saifur{
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.video{
+    text-align: center;
+}
+
+.videoYT{
+    width: 560px;
+    height: 315px;
 }
