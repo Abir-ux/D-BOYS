@@ -47,3 +47,197 @@ body{
     width: 560px;
     height: 315px;
 }
+
+
+
+
+
+
+
+
+
+#milestoneLogoAnimation{
+    animation-name: collageLogo;
+    animation-duration: 3s;
+
+}
+
+
+
+@keyframes collageLogo{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+
+    80% {
+        transform: translateY(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+#collageName{
+    
+    animation-name: collageName;
+    animation-duration: 4s;
+}
+
+
+
+
+
+@keyframes collageName{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+
+    80% {
+        transform: translateY(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+#className{
+    
+    animation-name: className;
+    animation-duration: 5s;
+}
+
+
+
+
+
+@keyframes className{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+
+    80% {
+        transform: translateY(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#SaifurSir{
+    
+    animation-name: SaifurSir;
+    animation-duration: 6s;
+}
+
+
+
+
+
+@keyframes SaifurSir{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+
+    80% {
+        transform: translateY(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#sirName{
+    
+    animation-name: sirName;
+    animation-duration: 7s;
+}
+
+
+
+
+
+@keyframes sirName{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+
+    80% {
+        transform: translateY(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
