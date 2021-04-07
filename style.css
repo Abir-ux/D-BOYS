@@ -12,6 +12,7 @@
 } */
 body{
     font-family: sans-serif;
+    background-color: rgba(0, 255, 255, 0.281);
 }
 
 
@@ -25,32 +26,58 @@ body{
 
 
 
-.January{
+#January{
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px;
+    background-color: rgba(0, 255, 255, 0.295);
+    padding: 20px;
+
 }
 
-.February{
+
+#February{
+    
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px;
+    background-color: rgba(0, 255, 255, 0.295);
+    padding: 20px;
 }
 
-.March{
+#March{
+    
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px;
+    background-color: rgba(0, 255, 255, 0.295);
+    padding: 20px;
+}
+
+#April{
+    
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px;
+    background-color: rgba(0, 255, 255, 0.295);
+    padding: 20px;
 }
 
 .saifur{
     width: 200px;
     border-radius: 50%;
+
 }
 
 
-.video{
+/* .video{
     text-align: center;
 }
 
 .videoYT{
     width: 560px;
     height: 315px;
-}
+} */
 
 
 
@@ -60,7 +87,7 @@ body{
 
 
 
-#milestoneLogoAnimation{
+/* #milestoneLogoAnimation{
     animation-name: collageLogo;
     animation-duration: 3s;
 
@@ -87,11 +114,27 @@ body{
     }
 
 
-}
+} */
 
 
 
-#collageName{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #collageName{
     
     animation-name: collageName;
     animation-duration: 4s;
@@ -120,14 +163,14 @@ body{
     }
 
 
-}
+} */
 
 
 
 
 
 
-#className{
+/* #className{
     
     animation-name: className;
     animation-duration: 5s;
@@ -158,6 +201,7 @@ body{
 
 }
 
+ */
 
 
 
@@ -167,8 +211,9 @@ body{
 
 
 
-
-
+#sir-section{
+    text-align: center;
+}
 
 
 
@@ -176,7 +221,7 @@ body{
 #SaifurSir{
     
     animation-name: SaifurSir;
-    animation-duration: 6s;
+    animation-duration: 5s;
 }
 
 
@@ -218,7 +263,7 @@ body{
 #SirName{
     
     animation-name: sirName;
-    animation-duration: 7s;
+    animation-duration: 5s;
 }
 
 
@@ -235,6 +280,127 @@ body{
 
     80% {
         transform: translateY(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#captains-section{
+    text-align: center;
+    animation-name: captains;
+    animation-duration: 5s;
+}
+
+
+
+
+@keyframes captains{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+
+    80% {
+        transform: translateY(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line-1{
+    text-align: center;
+    animation-name: line-1;
+    animation-duration: 5s;
+}
+
+
+
+
+@keyframes line-1{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    80% {
+        transform: translateX(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+.line-2{
+    text-align: center;
+    animation-name: line-2;
+    animation-duration: 5s;
+}
+
+
+
+
+@keyframes line-2{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80% {
+        transform: translateX(20px);
     }
 
 
